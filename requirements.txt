@@ -1,6 +1,25 @@
-streamlit>=1.32.0
-pandas>=2.0.0
-numpy>=1.24.0
-scikit-learn>=1.3.0
-plotly>=5.18.0
-openpyxl>=3.1.0
+# ── Core data science ──────────────────────────────────────────────────────────
+pandas
+numpy
+openpyxl        # Excel I/O
+scikit-learn
+xgboost
+
+# ── Visualisation ──────────────────────────────────────────────────────────────
+matplotlib
+seaborn
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+notebook
+ipykernel
+
+# ── API ────────────────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+
+# ── Streamlit dashboard ────────────────────────────────────────────────────────
+streamlit
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv
